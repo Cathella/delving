@@ -78,6 +78,14 @@ h2 {
   color: #00407A;
 }
 
+h3 {
+  font-family: 'Aleo';
+  font-weight: 400;
+  font-size: 32px;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
 .header-img {
   background: url(../img/hero.jpg);
   background-size: cover;
@@ -92,7 +100,8 @@ main {
 
 .who-we-are,
 .our-services,
-.what-we-do {
+.what-we-do,
+.global-educ-section {
   padding: 100px 0 0;
 }
 
@@ -126,6 +135,16 @@ main {
   border-radius: 20px;
 }
 
+.global-educ-img {
+  height: 377px;
+  background: url('../img/global.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.1));
+  border-radius: 20px;
+}
+
 .desc {
   line-height: 32px;
   color: #181818;
@@ -137,6 +156,12 @@ main {
   border-top: 2px solid #147FA1;
 }
 
+.divider2 {
+  width: 50px;
+  height: 2px;
+  border-top: 2px solid rgba(255, 255, 255, 0.4);
+}
+
 .details {
   display: flex;
   flex-direction: column;
@@ -146,4 +171,33 @@ main {
 .call-to-action {
   display: flex;
   flex-direction: row;
+}
+
+.global-educ-section {
+  background: #FFFFFF;
+}
+
+.bottom-section-padding {
+  padding-bottom: 100px;
+}
+
+.about-us {
+  background: rgba(84, 188, 235, 0.9);
+  height: 400px;
+}
+
+.about-us-cards section {
+  flex-grow: 1;
+}
+
+.more {
+  line-height: 32px;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.content-card {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
