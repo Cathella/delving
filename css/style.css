@@ -181,13 +181,25 @@ main {
   padding-bottom: 100px;
 }
 
+.more-bottom-section-padding {
+  padding-bottom: 300px;
+}
+
 .about-us {
   background: rgba(84, 188, 235, 0.9);
   height: 400px;
+  position: relative;
 }
 
-.about-us-cards section {
-  flex-grow: 1;
+.about-us-cards {
+  display: flex;
+  position: absolute;
+  top: -200px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.about-us-cards > section {
+  width: 33.333%;
 }
 
 .more {
@@ -200,4 +212,30 @@ main {
   display: flex;
   flex-direction: column;
   gap: 40px;
+}
+
+.why-abroad {
+  background-image: linear-gradient(to bottom, rgba(0, 64, 122, 0.7), rgba(0, 64, 122, 0.7)), url('../img/building.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 60px 30px;
+}
+
+.our-mission {
+  background-image: linear-gradient(to bottom, rgba(84, 188, 235, 0.8), rgba(84, 188, 235, 0.8)), url('../img/mission.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 60px 30px;
+  border-left: 2px solid #FFFFFF;
+  border-right: 2px solid #FFFFFF;
+}
+
+.choose-us {
+  background-image: linear-gradient(to bottom, rgba(188, 132, 83, 0.6), rgba(188, 132, 83, 0.6)), url('../img/choose.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 60px 30px;
 }
