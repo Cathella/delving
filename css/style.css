@@ -239,3 +239,45 @@ main {
   background-position: center center;
   padding: 60px 30px;
 }
+
+footer {
+  background: #00407A;
+  padding: 60px 0;
+}
+
+.footer-links,
+.footer-links div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-links div {
+  gap: 10px;
+}
+
+footer h5 {
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-links div a {
+  font-size: 14px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.rights,
+.rights a {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+}
