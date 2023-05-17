@@ -52,6 +52,7 @@ nav .nav-link {
 }
 
 header {
+  display: flex;
   background-color: #147FA1;
   color: #fff;
   width: 100%;
@@ -166,11 +167,13 @@ main {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  margin-top: 20px;
 }
 
 .call-to-action {
   display: flex;
   flex-direction: row;
+  margin-bottom: 20px;
 }
 
 .global-educ-section {
@@ -264,6 +267,10 @@ footer h5 {
   color: rgba(255, 255, 255, 0.5);
 }
 
+.right-float {
+  text-align: right;
+}
+
 .footer-links div a {
   font-size: 14px;
   text-decoration: none;
@@ -280,4 +287,50 @@ footer h5 {
 .rights a {
   color: rgba(255, 255, 255, 0.5);
   font-size: 12px;
+}
+
+
+@media screen and (max-width: 992px) {
+  header {
+    flex-direction: column;
+  }
+
+  header section {
+    width: 100%;
+  }
+
+  .header-img {
+    height: 400px;
+  }
+
+  .about-us {
+    height: auto;
+  }
+
+  .about-us-cards {
+    position: relative;
+    top: 0px;
+    box-shadow: none;
+    flex-direction: column;
+  }
+
+  .about-us-cards > section {
+    width: 100%;
+  }
+
+  .more-bottom-section-padding {
+    padding-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .right-float {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  header h1 {
+    margin: 50px 0;
+  }
 }
