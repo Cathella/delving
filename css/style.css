@@ -334,4 +334,9 @@ footer h5 {
   header h1 {
     margin: 50px 0;
   }
+
+  .footer-links,
+  .footer-logo {
+    margin-bottom: 35px;
+  }
 }
