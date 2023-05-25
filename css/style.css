@@ -51,18 +51,18 @@ nav .nav-link {
   text-decoration: none;
 }
 
-header {
+header.home-bg {
   display: flex;
   background-color: #147FA1;
   color: #fff;
   width: 100%;
 }
 
-header section {
+header.home-bg section {
   width: 50%;
 }
 
-header h1 {
+header.home-bg h1 {
   font-family: 'Aleo';
   font-weight: 400;
   font-size: 40px;
