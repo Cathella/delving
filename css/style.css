@@ -71,6 +71,15 @@ header.home-bg h1 {
   margin: 90px 0;
 }
 
+header.about-header h1 {
+  font-family: 'Aleo';
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 55px;
+  /* color: #FFFFFF; */
+  /* margin: 90px 0; */
+}
+
 h2 {
   font-family: 'Aleo';
   font-weight: 700;
@@ -94,9 +103,45 @@ h3 {
   background-repeat: no-repeat;
 }
 
+.about-img-bg {
+  /* height: 600px; */
+  background: url(../img/about.jpg);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.contact-section {
+  background-image: linear-gradient(to bottom, rgba(212, 231, 243, 1), rgba(212, 231, 243, 0.7)), url(../img/global.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.form {
+  padding: 70px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.7);
+  margin: 0 0 100px 0;
+}
+
 main {
   background: #D4E7F3;
   padding-top: 50px;
+}
+
+.commit {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0 70px;
 }
 
 .who-we-are,
