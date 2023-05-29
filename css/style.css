@@ -71,13 +71,16 @@ header.home-bg h1 {
   margin: 90px 0;
 }
 
-header.about-header h1 {
+header.about-header h1,
+header.stories-header h1 {
   font-family: 'Aleo';
   font-weight: 400;
   font-size: 40px;
   line-height: 55px;
-  /* color: #FFFFFF; */
-  /* margin: 90px 0; */
+}
+
+header.stories-header {
+  /* height: 600px; */
 }
 
 h2 {
@@ -134,6 +137,7 @@ h3 {
   text-align: center;
   background: rgba(255, 255, 255, 0.7);
   margin: 0 0 100px 0;
+  border: 20px solid #FFFFFF;
 }
 
 main {
@@ -312,6 +316,22 @@ footer {
 
 .footer-links div {
   gap: 10px;
+}
+
+.story-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.story {
+  background: #D4E7F3;
+  padding: 30px;
+  border-radius: 15px;
+  line-height: 32px;
+  color: #181818;
 }
 
 footer h5 {
