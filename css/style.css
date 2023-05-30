@@ -79,10 +79,6 @@ header.stories-header h1 {
   line-height: 55px;
 }
 
-header.stories-header {
-  /* height: 600px; */
-}
-
 h2 {
   font-family: 'Aleo';
   font-weight: 700;
@@ -327,11 +323,14 @@ footer {
 }
 
 .story {
-  background: #D4E7F3;
-  padding: 30px;
+  background-color: #D4E7F3;
+  padding: 30px 40px;
   border-radius: 15px;
   line-height: 32px;
   color: #181818;
+  background-image: url('../img/quotes.svg');
+  background-repeat: no-repeat;
+  background-position: top left;
 }
 
 footer h5 {
@@ -367,15 +366,17 @@ footer h5 {
 
 
 @media screen and (max-width: 992px) {
-  header {
+  header.home-bg {
     flex-direction: column;
   }
 
-  header section {
+  header.home-bg section {
     width: 100%;
   }
 
-  .header-img {
+  .header-img,
+  .about-img-bg,
+  .services-img-bg {
     height: 400px;
   }
 
@@ -406,7 +407,7 @@ footer h5 {
 }
 
 @media screen and (max-width: 576px) {
-  header h1 {
+  header.home-bg h1 {
     margin: 50px 0;
   }
 
